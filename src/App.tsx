@@ -17,13 +17,6 @@ const initialBoard: Board = {
           description: 'This is a sample card. Click on it to edit details.',
           createdAt: new Date().toISOString(),
         },
-        {
-          id: '2',
-          title: 'Create your first task',
-          description: 'Add your own tasks and organize them in lists.',
-          dueDate: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
-          createdAt: new Date().toISOString(),
-        },
       ],
       createdAt: new Date().toISOString(),
     },
@@ -32,8 +25,8 @@ const initialBoard: Board = {
       title: 'In Progress',
       cards: [
         {
-          id: '3',
-          title: 'Drag and drop cards',
+          id: '2',
+          title: 'Next Task is to call Me 😁',
           description: 'Try dragging cards between lists or within lists.',
           createdAt: new Date().toISOString(),
         },
@@ -45,8 +38,8 @@ const initialBoard: Board = {
       title: 'Done',
       cards: [
         {
-          id: '4',
-          title: 'Set up the board',
+          id: '3',
+          title: 'Thanks for showing interest',
           description: 'Basic board structure is complete!',
           createdAt: new Date().toISOString(),
         },
